@@ -15,9 +15,15 @@ To install and set up the project, follow these steps:
 
 git clone https://github.com/umbliama/greentest
 cd greentest
+
 npm install
+
 brew update
+
 brew install rabbitmq
+
 brew services start/restart/stop rabbitmq
+
 npm run start
+
 npm run test
